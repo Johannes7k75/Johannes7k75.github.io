@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Player Lounge</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet" />
+        <link rel="shortcut icon" href="pictures/DC_Logo.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body>
+        <div id="top">
+            <div id="Title" style="background-color: #36393f; display: inline-block">
+              <center><h1>Player-Lounge</h1></center>
+            </div>
+            <!--This is the Navigation Bar-->
+            <nav id="navigation">
+                <b>
+                    <p>Navigation</p>
+                    <a href="#Discord">Discord</a>
+                    <a href="#Kontakt">Kontakt</a>
+                </b>
+            </nav>
+        </div>
+        <!--This is the Content-->
+        <div id="main">
+            <section id="Discord">
+                <hr />
+                <center>
+                    <h2 style="font-family: Arial">Discord</h2>
+                </center>
+                <div id="Discord-Server">
+                    <a id="Link-DC" href="https://discord.gg/29NEpHcn9u" title="Hier gehts zum Discord Server">
+                        <li>Discord Server</li>
+                    </a>
+                    <img src="pictures\DC_Logo.png" alt="Discord Logo" style="width: 200px; height: 200px" />
+                    <br />
+                </div>
+            </section>
+            <div style="flex-wrap: wrap">
+                <section id="Kontakt">
+                    <hr />
+                    <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="block">
+                            <h2 class="subtitle wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".3s">Contact With Me</h2>
+                            <p class="subtitle-des wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".5s">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, ea!
+                                 consectetur adipisicing elit. Dolore, ea!
+                            </p>
+                            <div class="contact-form">
+                                <form id="contact-form" method="post" action="sendmail.php" role="form">
+                        
+                                    <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
+                                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                                    </div>
+                                    
+                                    <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s">
+                                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email" >
+                                    </div>
+                                    
+                                    <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
+                                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                                    </div>
+                                    
+                                    <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.2s">
+                                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>    
+                                    </div>
+                                    
+                                    
+                                    <div id="submit" class="wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.4s">
+                                        <input type="submit" id="contact-submit" class="btn btn-default btn-send" value="Send Message">
+                                    </div>                      
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                     </div>
+                <div class="row address-details">
+                    <div class="col-md-3">
+                        <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
+                            <i class="ion-ios-location-outline"></i>
+                            <h5>M<br>M</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="address wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
+                            <i class="ion-ios-location-outline"></i>
+                            <h5>M <br>M</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".7s">
+                            <i class="ion-ios-email-outline"></i>
+                            <p>M<br>m</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="phone wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".9s">
+                            <i class="ion-ios-telephone-outline"></i>
+                            <p>M<br>M</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <h2>Kontakt</h2>
+                    <p>
+                        E-Mail
+                        <li>
+                            <a href="mailto://team.player.lounge@gmail.com">team.player.lounge@gmail.com</a>
+                        </li>
+                    </p>
+                    <p>
+                        <br />
+                    </p>
+                </section>
+
+                <br />
+                <div id="Discord-Widget" style="text-align: center">
+                    <iframe
+                        src="https://discord.com/widget?id=685176247726374961&theme=dark"
+                        width="350"
+                        height="500"
+                        allowtransparency="true"
+                        frameborder="0"
+                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+                    ></iframe>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <footer>
+            <div id="footer">Copyright 2021 | PlayerLounge</div>
+        </footer>
+        
+    </body>
+</html>

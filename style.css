@@ -1,0 +1,134 @@
+body {
+    height: 100px;
+}
+
+@font-face {
+    src: url(fonts/Berlin-Sans-FB-Demi-Bold.ttf);
+    font-family: Berlin-Sans;
+}
+
+body {
+    font-family: Arial;
+    background-color: #2f3136;
+}
+
+#Discord h2 {
+    text-align: 50%;
+}
+
+#Title h1 {
+    /* text-align: center; */
+    font-family: Berlin-Sans;
+    padding: 8px;
+    margin: 8px;
+    border: solid;
+    border-radius: 0.25rem;
+}
+
+#navigation p {
+    color: Black;
+    margin: 6px;
+    font-family: Arial;
+}
+
+#navigation a:hover {
+    color: Blue;
+}
+
+.Einführung {
+    color: black;
+}
+
+#Einführung {
+    color: blue;
+}
+
+img {
+    border-radius: 1rem;
+    box-shadow: 10px 1px 10px black;
+    margin: 10px;
+}
+
+#navigation a:hover {
+    color: rgb(241, 196, 15);
+}
+
+#navigation a {
+    color: #64ba92;
+    padding: 8px;
+}
+
+#top {
+    text-align: center;
+    width: 100%;
+}
+
+#main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+#footer {
+    text-align: center;
+    color: gray;
+    padding: 16px;
+}
+
+#Discord a {
+    color: rgb(241, 196, 15);
+}
+
+#Discord li {
+    text-decoration: underline;
+}
+
+#Kontakt h2 {
+    text-align: center;
+}
+
+#Kontakt p {
+    margin: 4px;
+}
+
+hr {
+    text-align: center;
+}
+
+#main img {
+    margin-left: 40px;
+    display: block;
+}
+
+#Kontakt a {
+    color: rgb(241, 196, 15);
+}
+
+#main li {
+    margin-left: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+#main p {
+    margin-left: 40px;
+    display: block;
+    text-align: left;
+}
+
+#main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#footer {
+    display: block;
+    background-color: #36393f;
+    position: relative;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
