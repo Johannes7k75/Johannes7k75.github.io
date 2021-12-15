@@ -120,8 +120,8 @@ hr {
     display: block;
     background-color: #36393f;
     position: absolute;
-    bottom: 0;
     left: 0;
+    right: 0;
     width: -webkit-fill-available;
     color: gray;
     padding: 16px;
