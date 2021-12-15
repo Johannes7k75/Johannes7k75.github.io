@@ -68,14 +68,6 @@ img {
     margin: auto;
 }
 
-#footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    color: gray;
-    padding: 16px;
-}
 
 #Discord a {
     color: rgb(241, 196, 15);
@@ -125,6 +117,7 @@ hr {
 }
 
 #footer {
+    text-align: center;
     display: block;
     background-color: #36393f;
     position: absolute;
@@ -132,4 +125,6 @@ hr {
     left: 0;
     top: 0;
     width: 100vw;
+    color: gray;
+    padding: 16px;
 }
